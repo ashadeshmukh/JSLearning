@@ -27,7 +27,7 @@ var c = 101;
 
 function isEvenOrOddNum(num){
     //var num = a;
-    var result = num % 2 == 0 ;
+    var result = num % 2 == 0 ? true:false;
     return result;
    
 }
@@ -35,11 +35,11 @@ var displayResult = isEvenOrOddNum(num);
 console.log(`IS 29 EVEN OR ODD NUMBER: ${displayResult}`);
 
 var displayResult1 = isEvenOrOddNum(a);
-console.log(`IS 44 EVEN NUMBER: ${displayResult1}`);
+console.log(`IS 44 EVEN OR ODD NUMBER: ${displayResult1}`);
 
 
 var displayResult2 = isEvenOrOddNum(b);
-console.log(`IS 0 EVEN NUMBER: ${displayResult2}`);
+console.log(`IS 0 EVEN OR ODD NUMBER: ${displayResult2}`);
 
 
 var displayResult3 = isEvenOrOddNum(c);
