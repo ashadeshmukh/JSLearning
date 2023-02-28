@@ -33,21 +33,26 @@ console.log(`**************************************************`);
 console.log(`STEP 1.`);
 console.log(`Assignment 0B`);
 function maleMarriageEligibility(gender,age,boyName){
-    if (gender = 'male' && age>=21) {
-        console.log(`Hey${boyName} you are eligible for Marriage `);
+    if (gender == 'male' && age>=21) {
+        var str =`Hey${boyName} you are eligible for Marriage `
+        return str;
     }
     else{
-        console.log(`${boyName} Not eligible for Marriage`);
+        var str =`${boyName} Not eligible for Marriage`;
+        return str;
     }
 
 }
-maleMarriageEligibility("Male",25,"Billgates");
-maleMarriageEligibility("Male",17,"Stew Jobs");
+var result = maleMarriageEligibility("Male",25,"Billgates");
+console.log(result);
+var result = maleMarriageEligibility("Male",17,"Stew Jobs");
+console.log(result);
+
 console.log(`************************************************`);
 console.log(`STEP 2.`);
 
 function femaleMarriageEligibility(gender,age,girlName){
-    if (gender = "Female" && age>=18) {
+    if (gender == "Female" && age>=18) {
         console.log(`Hey ${girlName} you are eligible for Marriage`);
     }
     else {
