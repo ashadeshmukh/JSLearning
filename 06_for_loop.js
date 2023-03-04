@@ -32,3 +32,17 @@ for (let index =10; index >=0; index++){//infinite loop
 //index++ --> index = index+1;
 
 
+firstWordLength = function (strGiven){
+    var firstword = "";
+    for(let index=0;index<firstWordLength.length;index++){
+        var char = strGiven.charAt(index);
+        firstword= firstword+char;
+        if(char==" "){
+           break; 
+        }
+    }
+    return firstword;
+
+}
+var firstword = firstWordLength('Focus is the key');
+console.log(`First word --> ${firstword} length is ${lenght}`);
