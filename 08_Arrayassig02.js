@@ -13,14 +13,14 @@ console.log(`===================================================================
 console.log(`Third Last Element is: ${arrayNumbers[8]} `);
 
 console.log(`======================================================================`);
-
+let array = [];
 for (let index = 0; index < arrayNumbers.length; index++) {
     const element = arrayNumbers[index];
         if(element%2==0){
-            //evenNumber.push(index);
+            array.push(element);
             console.log(`Even Number is: ${element}`);
           } 
-          //console.log(`Even Number is: ${arrayNumbers[index]}`); 
+          //console.log(`Even Number is: ${array[element]}`); 
                  
     }
 
