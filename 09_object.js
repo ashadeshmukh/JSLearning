@@ -24,7 +24,7 @@ let student = {
           console.log("I am show() function");
      },
      addressDetails: function(){//datamember function
-          return `Address is: Street ${this.address.street}, City ${this.address.city}, PIN ${this.address.PIN}`
+          return `Address is: Street ${this.address.street}, City ${this.address.city}, ID ${this.address.id}`
        }
 };
 
@@ -50,15 +50,6 @@ student.marks = {//add object
      physics: 60,
      drawing: 70
  }
-
-
-
-
-
-
-
-
-
 
 //. DOT notation
 console.log(student.firstName);
