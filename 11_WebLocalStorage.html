@@ -1,0 +1,21 @@
+<!DOCTYPE html>>
+<html>
+    <head>
+        <title> Web local Storage </title>
+    </head>
+    <body>
+        <h2> Web local Storage </h2>
+        <script>
+            var bbb = "Local Variable";
+        
+            window.localStorage.setItem("name","Asha Deshmukh");
+            window.localStorage.setItem("city","Sambhaji Nagar");
+            window.localStorage.setItem("pinCode",431702);
+            window.localStorage.setItem("district","Sambhaji Nagar");
+
+            const city = window.localStorage.removeItem("city");
+            console.log(city);
+            
+        </script>
+    </body>
+</html>
